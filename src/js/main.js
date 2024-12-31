@@ -7,7 +7,6 @@
             
             // Guarda el nuevo valor en localStorage
             localStorage.setItem('contador', contador);
-            alert(contador);
             // Muestra el contador en la página
             document.getElementById('contador').textContent = contador;
  
