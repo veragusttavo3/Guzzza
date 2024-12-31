@@ -1,3 +1,34 @@
-header{
-    background-color: rgb(66, 66, 138);
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+h1{
+    margin:-7% 0% 1% 0%;
+}
+p{
+    margin:3% 0% 0% 0%;
+}
+#contador {
+    font-weight: bold;
+    color: #007BFF;
+}
+body{   color:white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+        /* Fondo estático */
+        background-image: url("../img/pizzas/fondo-horno-muy-pronto.jpg"); /* Reemplaza 'fondo.jpg' con el nombre de tu imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+        background-position: center; /* Centra la imagen en la pantalla */
+}
+.mitexto {
+    
+    position: absolute; /* Necesario para moverlo libremente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el texto */
+}
+footer{
+    text-align: right;
+    margin-top:310px;
+    
 }
