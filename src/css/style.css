@@ -3,10 +3,11 @@
     box-sizing: border-box;
 }
 h1{
-    margin:-7% 0% 1% 0%;
+    margin:-2% 78% 0% 1%;
+    color:orange;
 }
 p{
-    margin:3% 0% 0% 0%;
+    margin:4% 0% 0% 0%;
 }
 #contador {
     font-weight: bold;
@@ -23,12 +24,11 @@ body{   color:white;
         background-position: center; /* Centra la imagen en la pantalla */
 }
 .mitexto {
-    
     position: absolute; /* Necesario para moverlo libremente */
     cursor: pointer; /* Cambia el cursor al pasar sobre el texto */
 }
 footer{
     text-align: right;
-    margin-top:310px;
+    margin-top:31%;
     
 }
